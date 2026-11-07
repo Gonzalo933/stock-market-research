@@ -1,0 +1,13 @@
+# pyproject.toml
+[project]
+name = "my-project"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.0",
+    "yfinance>=0.2",
+    "duckdb>=1.0",
+]
+
+[tool.uv]
+managed = true
